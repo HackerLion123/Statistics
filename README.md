@@ -1,2 +1,2 @@
 # Statistics
-Basic statistical analysis course materials related to Stats and Code related to it.
+Basic statistical Analysis tools and function that are reusable and simple.

@@ -1,0 +1,24 @@
+Linear Discriminate Analysis (LDA) is similar to PCA, but it focuses on maximzing the seperatiability among known categories.
+
+
+Example 
+
+reduce a 2-D graph to 1-D 
+
+LDA uses the information between 2 variables and a create a new axis which maxizes the distance between the two.
+
+LDA:
+
+1] Maximize the distance between means (mean1 - mean2)
+
+2] Minimize the variation(which LDA calls scatter and is represented by s^2) within each category
+
+Formula:
+
+(mean1 - mean2)^2 / scatter1^2 + scatter2^2
+
+similarities between PCA and LDA:
+
+1] Both rank the new axes in order of importance
+
+2] Both methods let you dig in and see which genes are driving the new axes

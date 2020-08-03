@@ -1,0 +1,28 @@
+
+A PCA plot converts the correlations(or lack there of) among all of the features into a 2-D graph.
+
+PCA is a method for compressing a lot of data into something that captues the essence of the original data.
+
+PCA is just one way to make sense of this type of data. There are lots of other methods that are variations on this theme of "dimension reduction"
+
+Few such alternatives
+
+1] Heatmaps
+2] t-SNE plots
+3] Multi-Dimensional Scaling
+
+Example for PCA:
+
+PCA finds the best fitting line by maximizing the sum of the squared distances from the projected points to the origin.
+
+ According to pythogorean theorem a^2 = b^2 + c^2
+
+
+
+Tips for PCA:
+
+1] Make sure the variables are on the same scale if not scale them.
+
+
+
+
